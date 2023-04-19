@@ -1,0 +1,158 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+.btns-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field,
+.input-field:hover,
+.input-field:active,
+.input-field:focus {
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-field {
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif; 
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 0 .2em;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: .2em;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: white;
+}
+
+.btn-div {
+    width: 127px;
+    height: 60px;
+}
+
+.num {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+.start-container {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.head {
+    background-color: #FDE617;
+    width: 1400px;
+    height: 133px;
+    left: 37px;
+    top: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+.difficulty {
+    background-color: #BB70D6;
+    width: 1400px;
+    height: 799px;
+    left: 21px;
+    top: 190px;
+    border-radius: 30px;
+    margin: 0px;
+    margin-top: 3px;
+}
+
+.menu-d {
+    margin: -55px 295px -30px 53px;
+}
+
+.txt-difficulty {
+    font-weight: 400;
+    font-size: 70px;
+    color: #008425;
+}
+
+.difficult {
+    width: 688px;
+    height: 121px;
+    left: 74px;
+    top: 345px;
+
+    font-weight: 400;
+    font-size: 70px;
+    color: #008425;
+    margin: 0px 295px 0px 53px;
+}
+
+.footer {
+    display: flex;
+}
+
+.btn-start {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 121px;
+    color: #24D38A;
+    border: 3px solid #5872CF;
+    background-color: aliceblue;
+
+    width: 555px;
+    height: 118px;
+    left: 460px;
+    top: 825px;
+
+    margin-top: -220px;
+    margin-left: 422px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
