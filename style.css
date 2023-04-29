@@ -156,3 +156,19 @@ h1 {
     text-align: center;
     border-radius: 30px;
 }
+
+@media (max-width: 1200px) {
+    .container, .start-container {
+        width: 1000px;
+    }
+}
+@media (max-width: 1000px) {
+    .container, .start-container {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .container, .start-container {
+        width: 480px;
+    }
+}
