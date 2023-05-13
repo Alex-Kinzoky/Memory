@@ -12,6 +12,9 @@
     flex-direction: column;
     justify-content: center;
     /* margin-right: 2em; */
+    background-color: orange;
+    padding: 5px 200px;
+    border-radius: 6px;
 }
 
 .btns-row {
